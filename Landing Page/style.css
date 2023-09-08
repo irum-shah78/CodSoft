@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  margin:0;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+/* ----- NAVBAR ----- */
+.nav-link:hover{
+color: #198754;
+}
+.dropdown-item:hover{
+  background-color: white;
+  color:#198754;
+  padding-left: 20px;
+  transition: .5s ease;
+}
+.dropdown-menu{
+  border-top-color: #198754;;
+  border-top-width:3px ;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  transition: .3s ease;
+}
+
+
+/* ----- HERO ---- */
+.hero{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  object-fit: contain;
+}
+.search-bar{
+  box-shadow: 0 5px 20px rgb(216, 212, 212);
+}
+.btn:hover{
+ background-color:white;
+ color:#198754;
+ border-color: #198754;
+ transition: .2s ease;
+}
+.carousel-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    color: seagreen !important;
+    transition: .6s ease;
+}
+
+
+/* ---- PRODUCTS ---- */
+.card-img-top{
+  width: 60px;
+  height: 55px;
+  vertical-align: center;
+}
+.icon-card:hover{
+  background-color: #198754;
+  color:white;
+}
+
+
+/* ---- DISCOUNTS ---- */
+.discounts-info{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 470px;
+  height:240px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  object-fit: contain;
+}
+.btn-discount:hover{
+  background-color: #198754;
+  color: white;
+ 
+}
+
+
+.offer-1{
+  background-color: rgba(255,255,255,.7);
+  transition: .4s ease;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 65px;
+  width: 275px;
+  min-height: 175px;
+  border-radius: 0 0 180px 180px;
+  padding: 40px 25px;
+  z-index: 1;
+   
+}
+.offer-1:hover{
+  transition: .6s ease;
+  margin-left: 100px;
+}
+
+.offer-2{
+    transition: .6s ease;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    /* margin-left: 10px; */
+    background: rgba(0,0,0,.7);
+    width: 423px;
+    height:216px;
+}
+.btn-discount-1:hover{
+  background-color:white;
+  color:#198754;
+  border-color: #198754;
+  transition: .2s ease;
+ }
+ .offer-2:hover{
+  transition: .6s ease;
+  width:458px;
+  height: 240px;
+  margin-left: 0;
+}
+
+
+
+.offers{
+  background: #ff5b5b;
+  color: #fff;
+  padding: 4px 10px;
+  margin-right: 100px;
+}
+.offers-badge {
+  text-align: center;
+  font-size: 12px;
+}
+
+.grocery-icon{
+  background-color: #198754;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    opacity:0;
+}
+
+.plus-icon{
+  width: 34px;
+   height: 30px;
+  position: relative;
+  margin-top: 3px;
+  margin-right: 10px;
+  line-height: 30px;
+  border-radius: 70%;
+  font-size: 16px;
+  text-align: center;
+  opacity:0;
+}
+
+.btn-icon:hover .btn-add-cart{
+  color:white;
+  background-color: #198754;
+}
+
+
+.btn-icon:hover{
+  color:white;
+  background-color: #198754;
+}
+.btn-icon:hover .plus-icon{
+  background-color:white;
+  border-color: #198754;
+  opacity: 75;
+}
+.offers-1{
+  background: black;
+  color: #fff;
+  padding: 4px 10px;
+  margin-right: 100px;
+}
+.offers-badge-1 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.offers-2{
+  background: #198754;
+  color: #fff;
+  padding: 4px 10px;
+  margin-right: 100px;
+}
+.offers-badge-2 {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* --- GROCERY ---- */
+.grocery-card{
+  box-shadow: 0px 0px 15px rgb(216, 211, 211) !important;
+  /* transition: 1s; */
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+}
+.grocery-card img{
+  width: 23vh;
+  height: 23vh;
+}
+
+.grocery-card:hover .grocery-icon{
+  opacity:75;
+}
+
+/* ---- WEEKLY OFFERS ---- */
+.weekly-offer{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  justify-content: start;
+  align-items: center;
+  object-fit: contain;
+  position: relative;
+}
+.week-1{
+  transition: .6s ease;
+  text-align: center;
+  position: absolute;
+  background: rgba(0,20,41,0.6);
+  width: 100%;
+  height:70vh;
+}
+.btn-week{
+  background-color: white;
+  color: black;
+}
+.btn-week:hover{
+  background-color: #198754;
+  color: white;
+}
+.week-img-2{
+  height:500px;
+  width:500px;
+  right:0;
+  /* z-index: 200; */
+  position: absolute;
+  top:0;
+  right:0;
+}
+.week-img-1{
+  height:500px;
+  width:400px;
+  left:0;
+  /* z-index: 200; */
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+/* ---- FRESH NEWS ---- */
+.fresh-text:hover{
+  color:rgb(81, 75, 75);
+}
+.fresh-read:hover{
+  color:#198754;
+}
+
+
+.botom-card{
+  padding: 40px 40px 50px;
+}
+.bottom-card:hover{
+  transform: scale(1.02);
+  z-index: 1;
+}
+
+/* ---- FOOTER ---- */
+ul li:hover {
+    color: #f9681f;
+}
+ul li:before{ 
+   font-size:20pt;
+ }
+ ul.disc li {
+  list-style-type: disc;
+  font-size: 2em;
+}
+li * {
+  font-size: initial;
+}
+
+.btn-footer{
+  background: #00896f !important;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+.btn-footer:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.comp-pol p:hover{
+  color:#f9681f;
+}
+
+.img-footer{
+  max-width: 100%;
+}
+
+
+
+@media (max-width:767px) {
+  .carousel .carousel-text{
+   padding:80px;
+  }
+  .carousel-item{
+    width:100%;
+  }
+  .search-bar{
+    width:110%;
+  }
+  .icon-card{
+    margin-top: 10px;
+  }
+  .discounts-info{
+    width:90%;
+    margin-left: 30px;
+  }
+  .brocli-card{
+    margin-left: 27px;
+  }
+  .strawberry-card{
+    margin-left: 27px;
+  }
+  .pomgrinate-card{
+    display: none;
+  }
+  .chilli-card{
+    margin-left: 170px;
+  }
+  .weekly-offer img{
+    display: none;
+  }
+  .fresh-news .cards{
+    width:150%;
+    
+  }
+  
+}
+
